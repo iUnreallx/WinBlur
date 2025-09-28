@@ -6,8 +6,7 @@ A lightweight and easy-to-use application for applying blur effects on Windows.
 ![Blur App Screenshot](images/blur.png)
 
 ## Installation
-1. Download the latest release from the [official repository]([Release WinBlur v1.0 · iUnreallx/WinBlur](https://github.com/iUnreallx/WinBlur/releases/tag/rls-1))
-
+1. Download the latest release from the [official repository](https://github.com/iUnreallx/WinBlur/releases/tag/rls-1)
 
 ## To build your own application, use the following command:
 
