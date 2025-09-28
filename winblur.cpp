@@ -40,7 +40,7 @@ void EnableBlur(HWND hwnd) {
         if (setWindowCompositionAttribute) {
             ACCENT_POLICY accent = {};
             accent.AccentState = ACCENT_ENABLE_ACRYLICBLURBEHIND;
-            accent.GradientColor = 0x99000000; // ARGB: прозрачность + цвет подложки
+            accent.GradientColor = 0x99000000;
             WINDOWCOMPOSITIONATTRIBDATA data = {};
             data.Attrib = WCA_ACCENT_POLICY;
             data.pvData = &accent;
@@ -53,7 +53,7 @@ void EnableBlur(HWND hwnd) {
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     static bool isFullScreen = false;
-    static bool isTopmost = true; // Начально окно поверх всех (WS_EX_TOPMOST)
+    static bool isTopmost = true; 
     static RECT normalRect;
     switch (msg) {
     case WM_CREATE:
