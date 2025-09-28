@@ -1,6 +1,6 @@
 # Blur Application for Windows
 
->A lightweight and easy-to-use application for applying blur effects on Windows.
+A lightweight and easy-to-use application for applying blur effects on Windows.
 
 ## Screenshot
 ![Blur App Screenshot](images/blur.png)
@@ -13,5 +13,3 @@
 
 ```bash
 g++ -o winblur.exe winblur.cpp -mwindows -luser32 -lgdi32
-
-
